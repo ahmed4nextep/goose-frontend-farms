@@ -2,31 +2,31 @@ import { MenuEntry } from '@pancakeswap-libs/uikit'
 
 const config: MenuEntry[] = [
   {
-    label: 'Home',
+    label: 'HomeN',
     icon: 'HomeIcon',
     href: '/',
   },
   {
-    label: 'Trade',
+    label: 'TradeN',
     icon: 'TradeIcon',
     items: [
       {
-        label: 'Exchange',
+        label: 'ExchangeN',
         href: 'https://exchange.goosedefi.com/',
       },
       {
-        label: 'Liquidity',
+        label: 'LiquidityN',
         href: 'https://exchange.goosedefi.com/#/pool',
       },
     ],
   },
   {
-    label: 'Farms',
+    label: 'FarmsN',
     icon: 'FarmIcon',
     href: '/farms',
   },
   {
-    label: 'Nests',
+    label: 'NestsN',
     icon: 'PoolIcon',
     href: '/nests',
   },
@@ -46,7 +46,7 @@ const config: MenuEntry[] = [
   //   href: '/nft',
   // },
   {
-    label: 'Info',
+    label: 'InfoN',
     icon: 'InfoIcon',
     items: [
       {
