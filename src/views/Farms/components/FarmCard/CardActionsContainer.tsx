@@ -33,7 +33,8 @@ const CardActions: React.FC<FarmCardActionsProps> = ({ farm, ethereum, account }
   const lpAddress = lpAddresses[process.env.REACT_APP_CHAIN_ID]
   const tokenAddress = tokenAddresses[process.env.REACT_APP_CHAIN_ID];
   const lpName = farm.lpSymbol.toUpperCase()
-  const isApproved = account && allowance && allowance.isGreaterThan(0)
+  const isApproved = account && allowance
+//   && allowance.isGreaterThan(0)
 
   const lpContract = useMemo(() => {
     if(isTokenOnly){
